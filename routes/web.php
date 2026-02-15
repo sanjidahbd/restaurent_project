@@ -14,6 +14,18 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Home');
 });
+Route::get('/about', function () {
+    return Inertia::render('About');
+});
+Route::get('/chef', function () {
+    return Inertia::render('Chef');
+});
+Route::get('/menu', function () {
+    return Inertia::render('Menu');
+});
+Route::get('/contact', function () {
+    return Inertia::render('Contact');
+});
 
 
 

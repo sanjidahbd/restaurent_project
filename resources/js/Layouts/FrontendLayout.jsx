@@ -1,6 +1,11 @@
+
+
 import Footer from '@/Components/Footer'
 import Header from '@/Components/Header'
+
 import Offcanvas from '@/Components/Offcanvas'
+
+
 import React from 'react'
 
 function FrontendLayout({children}) {
@@ -8,7 +13,9 @@ function FrontendLayout({children}) {
     <>  
         <Offcanvas/>
         <Header/>
+      
         {children}
+        
         <Footer/>
     </>
   )

@@ -39,198 +39,49 @@ function Header() {
                                                     <nav id="mobile-menu">
                                                         <ul>
                                                             <li className="has-dropdown active menu-thumb">
-                                                                <a href="index.html">
+                                                                <a href="/">
                                                                     Home
                                                                     <i className="fa-regular fa-plus" />
                                                                 </a>
-                                                                <ul className="submenu has-homemenu">
-                                                                    <li>
-                                                                        <div className="homemenu-items">
-                                                                            <div className="homemenu">
-                                                                                <div className="homemenu-thumb">
-                                                                                    <img src="assets/img/header/home1.jpg" alt="img" />
-                                                                                    <div className="demo-button">
-                                                                                        <a href="index.html" className="theme-btn">
-                                                                                            Multi Page
-                                                                                        </a>
-                                                                                        <a href="index-one-page.html" className="theme-btn">
-                                                                                            One Page
-                                                                                        </a>
-                                                                                        <a href="index-dark.html" className="theme-btn">
-                                                                                            Dark Page
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div className="homemenu-content text-center">
-                                                                                    <h4 className="homemenu-title">
-                                                                                        Home 01
-                                                                                    </h4>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div className="homemenu">
-                                                                                <div className="homemenu-thumb mb-15">
-                                                                                    <img src="assets/img/header/home2.jpg" alt="img" />
-                                                                                    <div className="demo-button">
-                                                                                        <a href="index-2.html" className="theme-btn">
-                                                                                            Multi Page
-                                                                                        </a>
-                                                                                        <a href="index-two-page.html" className="theme-btn">
-                                                                                            One Page
-                                                                                        </a>
-                                                                                        <a href="index-2-dark.html" className="theme-btn">
-                                                                                            Dark Page
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div className="homemenu-content text-center">
-                                                                                    <h4 className="homemenu-title">
-                                                                                        Home 02
-                                                                                    </h4>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div className="homemenu">
-                                                                                <div className="homemenu-thumb mb-15">
-                                                                                    <img src="assets/img/header/home3.jpg" alt="img" />
-                                                                                    <div className="demo-button">
-                                                                                        <a href="index-3.html" className="theme-btn">
-                                                                                            Multi Page
-                                                                                        </a>
-                                                                                        <a href="index-three-page.html" className="theme-btn">
-                                                                                            One Page
-                                                                                        </a>
-                                                                                        <a href="index-3-dark.html" className="theme-btn">
-                                                                                            Dark Page
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div className="homemenu-content text-center">
-                                                                                    <h4 className="homemenu-title">
-                                                                                        Home 03
-                                                                                    </h4>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
+                                                             
                                                             </li>
-                                                            <li className="has-dropdown active d-xl-none">
-                                                                <a href="index.html" className="border-none">
-                                                                    Home
-                                                                    <i className="fa-regular fa-plus" />
-                                                                </a>
-                                                                <ul className="submenu">
-                                                                    <li><a href="index.html">Home 01</a></li>
-                                                                    <li><a href="index-2.html">Home 02</a></li>
-                                                                    <li><a href="index-3.html">Home 03</a></li>
-                                                                </ul>
-                                                            </li>
+                                                           
                                                             <li className="has-dropdown">
-                                                                <a href="about.html">
+                                                                <a href="/about">
                                                                     About Us
                                                                     <i className="fa-regular fa-plus" />
                                                                 </a>
-                                                                <ul className="submenu">
-                                                                    <li><a href="about.html">About Us 01</a></li>
-                                                                    <li><a href="about-2.html">About Us 02</a>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop.html">
-                                                                    Shop
-                                                                    <i className="fa-regular fa-plus" />
-                                                                </a>
-                                                                <ul className="submenu">
-                                                                    <li><a href="shop.html">Shop</a></li>
-                                                                    <li><a href="shop-right-sidebar.html">Shop Right Sidebar</a>
-                                                                    </li>
-                                                                    <li><a href="shop-list.html">Shop List</a></li>
-                                                                    <li><a href="shop-list-right-sidebar.html">Shop List Right
-                                                                        Sidebar</a></li>
-                                                                    <li><a href="shop-details.html">Shop Details</a></li>
-                                                                    <li><a href="cart.html">Cart List</a></li>
-                                                                    <li><a href="checkout.html">Checkout</a></li>
-                                                                    <li><a href="wishlist.html">Wishlist</a></li>
-                                                                </ul>
+                                                               
                                                             </li>
                                                             <li className="has-dropdown">
-                                                                <a href="#">
-                                                                    Pages
+                                                                <a href="/chef">
+                                                                  Chef
                                                                     <i className="fa-regular fa-plus" />
                                                                 </a>
-                                                                <ul className="submenu">
-                                                                    <li className="has-dropdown">
-                                                                        <a href="chef.html">
-                                                                            Chef
-                                                                            <i className="fas fa-angle-down" />
-                                                                        </a>
-                                                                        <ul className="submenu">
-                                                                            <li><a href="chef.html">Chef</a></li>
-                                                                            <li><a href="chef-details.html">Chef Details 01</a>
-                                                                            </li>
-                                                                            <li><a href="chef-details2.html">Chef Details 02</a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </li>
-                                                                    <li className="has-dropdown">
-                                                                        <a href="menu.html">
-                                                                            Food Menu
-                                                                            <i className="fas fa-angle-down" />
-                                                                        </a>
-                                                                        <ul className="submenu">
-                                                                            <li><a href="menu.html">Food Menu 01</a></li>
-                                                                            <li><a href="menu2.html">Food Menu 02</a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </li>
-                                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                                    <li className="has-dropdown">
-                                                                        <a href="services.html">
-                                                                            Services
-                                                                            <i className="fas fa-angle-down" />
-                                                                        </a>
-                                                                        <ul className="submenu">
-                                                                            <li><a href="services.html">Services</a> </li>
-                                                                            <li><a href="service-details.html">Service
-                                                                                Details</a></li>
-                                                                        </ul>
-                                                                    </li>
-                                                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                                                    <li><a href="reservation.html">Reservation</a></li>
-                                                                    <li><a href="faq.html">Faq's</a></li>
-                                                                    <li><a href="account.html">My Account</a></li>
-                                                                    <li><a href="404.html">404 Page</a></li>
-                                                                </ul>
+                                                               
                                                             </li>
+                                                            
+                                                          
                                                             <li>
-                                                                <a href="blog.html">
-                                                                    Blog
+                                                                <a href="/menu">
+                                                                  Food Menu
                                                                     <i className="fa-regular fa-plus" />
                                                                 </a>
-                                                                <ul className="submenu">
-                                                                    <li><a href="blog.html">Blog</a></li>
-                                                                    <li><a href="blog-standard.html">Blog Standard</a></li>
-                                                                    <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                                                                    </li>
-                                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                                </ul>
+                                                               
                                                             </li>
                                                             <li>
-                                                                <a href="contact.html">
+                                                                <a href="/contact">
                                                                     Contact Us
                                                                     <i className="fa-regular fa-plus" />
                                                                 </a>
-                                                                <ul className="submenu">
-                                                                    <li><a href="contact.html">Contact Us 01</a></li>
-                                                                    <li><a href="contact2.html">Contact Us 02</a></li>
-                                                                </ul>
+                                                               
                                                             </li>
                                                         </ul>
                                                     </nav>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="header-right d-flex justify-content-end align-items-center">
+                                        {/* <div className="header-right d-flex justify-content-end align-items-center">
                                             <a href="#0" className="search-trigger search-icon"><i className="fal fa-search" /></a>
                                             <div className="header__cart">
                                                 <a href="#"> <i className="fa-sharp fa-regular fa-cart-shopping" /> </a>
@@ -293,7 +144,8 @@ function Header() {
                                                     <i className="fas fa-bars" />
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> */}
+                                        
                                     </div>
                                 </div>
                             </div>
